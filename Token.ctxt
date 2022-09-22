@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Token
+comment0.text=\n\ The\ Token\ class\ represents\ a\ token\ in\ a\ file.\ There\ are\ many\ different\ types\n\ of\ tokens\ and\ they\ all\ have\ a\ value\ and\ type\ instance\ field.\ They\ can\ be\ used\n\ to\ form\ phrases\ and\ sentences\ that\ make\ up\ the\ file.\n\ @version\ 2/28/19\n\ @author\ Dawson\ Chen\n
+comment1.params=type\ value
+comment1.target=Token(Scanner.TOKEN_TYPE,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ Token\ class.\ Sets\ type\ and\ value\ to\ \n\ 2\ inputs\n\ @param\ type\ the\ type\ of\ token\n\ @param\ value\ the\ string\ value\ of\ the\ token\n
+comment2.params=
+comment2.target=java.lang.String\ getValue()
+comment2.text=\n\ Accessor\ method\ to\ get\ the\ value\ of\ the\ token\n\ @return\ value\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Converts\ the\ Token\ to\ a\ string\ in\ the\ form\ of\n\ type\:\ value\n\ @return\ the\ Token\ as\ a\ string\n\ @override\n
+comment4.params=
+comment4.target=Scanner.TOKEN_TYPE\ getType()
+comment4.text=\n\ Gets\ the\ type\ of\ the\ token\n\ @return\ type\n
+comment5.params=otherToken
+comment5.target=boolean\ equals(Token)
+comment5.text=\n\ Determines\ whether\ this\ Tokens\ is\ equal\ to\ the\ Token\n\ in\ the\ parameter\n\ @param\ otherToken\ is\ the\ token\ to\ compare\ this\ to\n\ @return\ true\ if\ the\ 2\ tokens\ have\ the\ same\ value\n\ otherwise\ false\n\ @override\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Phrase
+comment0.text=\n\ Represents\ a\ group\ of\ Token\ objects,\ each\ containing\ a\ single\ word.\ \n\ Tokens\ are\ stored\ in\ an\ Arraylist\ because\ accessing\ any\ given\ index\n\ is\ efficient\ and\ it\ is\ easy\ to\ traverse\ the\ data\ structure.\n\n\ @author\ Dawson\ Chen\n\ @version\ 3/27/19\n
+comment1.params=
+comment1.target=Phrase()
+comment1.text=\n\ Constructor\ for\ tokens\ of\ class\ Phrase\n
+comment2.params=tok
+comment2.target=void\ addToken(Token)
+comment2.text=\n\ Adds\ a\ token\ to\ tokens\n\ @param\ tok\ is\ the\ new\ token\ to\ be\ added\ to\ the\ phrase\n\ Runs\ in\ O(1)\ time\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getPhrase()
+comment3.text=\n\ Returns\ a\ copy\ of\ tokens\n\ @return\ a\ deep\ copy\ of\ tokens\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Returns\ a\ string\ form\ of\ the\ phrase\n\ @return\ the\ phrase\ represented\ by\ a\ string\n
+numComments=5

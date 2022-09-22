@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DocumentStats
+comment0.text=\n\ DocumentStats\ computes\ which\ author\ a\ given\ doc\ corresponds\ to\n\n\ @author\ Dawson\ Chen\n\ @version\ 5/17/19\n
+comment1.params=doc\ f
+comment1.target=DocumentStats(Document,\ java.util.Map)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ DocumentStats\n\ @param\ doc\ is\ the\ document\ to\ evaluate\n\ @param\ f\ is\ the\ map\ of\ <file\ name,\ File\ object>\n
+comment2.params=files
+comment2.target=java.util.Map\ loadAuthorStats(java.util.Map)
+comment2.text=\n\ Loads\ the\ statistics\ of\ all\ the\ given\ authors\n\ @param\ files\ is\ the\ map\ of\ files\ and\ their\ file\ names\ to\ be\ loaded\n\ @return\ a\ map\ of\ <author\ name,\ their\ statistics>\n
+comment3.params=
+comment3.target=void\ computeStats()
+comment3.text=\n\ Computes\ the\ statistics\ of\ the\ document\n
+comment4.params=
+comment4.target=java.lang.String\ findAuthor()
+comment4.text=\n\ Return\ the\ author\ of\ the\ selected\ document\n\ @return\ the\ name\ of\ the\ author\n
+numComments=5

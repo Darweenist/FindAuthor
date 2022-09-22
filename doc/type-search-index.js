@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Document"},{"p":"<Unnamed>","l":"DocumentStats"},{"p":"<Unnamed>","l":"Phrase"},{"p":"<Unnamed>","l":"Scanner"},{"p":"<Unnamed>","l":"ScannerTester"},{"p":"<Unnamed>","l":"Sentence"},{"p":"<Unnamed>","l":"Token"},{"p":"<Unnamed>","l":"Scanner.TOKEN_TYPE"}]

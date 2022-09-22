@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Document
+comment0.text=\n\ Creates\ a\ new\ document\ composed\ of\ sentences\n\ \n\ @author\ Dawson\ Chen\n\ @version\ 3.25.19\n
+comment1.params=sc
+comment1.target=Document(Scanner)
+comment1.text=\n\ Take\ scanner\ and\ generate\ document\ from\ given\ text\n\ @param\ sc\ the\ scanner\ to\ use\ to\ generate\ the\ document.\n
+comment2.params=
+comment2.target=java.util.List\ getDocument()
+comment2.text=\n\ Returns\ a\ list\ of\ sentences\ \n\ @return\ a\ list\ of\ sentences\ that\ compose\ the\ document\n
+comment3.params=
+comment3.target=Token\ getNextToken()
+comment3.text=\n\ Gets\ the\ nextToken\n\ @return\ the\ next\ Token\n
+comment4.params=t
+comment4.target=void\ eat(Token)
+comment4.text=\n\ Gets\ the\ next\ token\ if\ the\ given\ token\ is\ the\ same\ as\ the\ current\ one\n\ @param\ t\ the\ Token\ that\ is\ currently\ on\n
+comment5.params=
+comment5.target=void\ parsePhrase()
+comment5.text=\n\ Parses\ and\ gets\ a\ list\ of\ tokens\ into\ the\ current\ phrase\n
+comment6.params=
+comment6.target=Sentence\ parseSentence()
+comment6.text=\n\ Parses\ and\ gets\ a\ list\ of\ phrases\ into\ a\ sentence\n\ @return\ Sentence\ parses\ the\ sentence\n
+comment7.params=
+comment7.target=void\ parseDocument()
+comment7.text=\n\ Parses\ the\ entire\ document\ into\ a\ list\ of\ sentences\n
+numComments=8

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Sentence
+comment0.text=\n\ Represents\ a\ sequence\ of\ phrases,\ making\ up\ a\ sentence.\ \n\ These\ phrases\ are\ stored\ in\ a\ ArrayList\ because\ traversing\ is\ efficient,\n\ and\ it\ is\ easy\ to\ access\ any\ individual\ element.\n\n\ @author\ Dawson\ Chen\n\ @version\ 3/27/19\n
+comment1.params=
+comment1.target=Sentence()
+comment1.text=\n\ Constructor\ for\ phrases\ of\ class\ Sentence,\n\ instantiating\ it\ as\ a\ new\ ArrayList.\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getSentence()
+comment2.text=\n\ @return\ an\ arraylist\ of\ phrases\n
+comment3.params=phr
+comment3.target=void\ addPhrase(Phrase)
+comment3.text=\n\ Adds\ a\ phrase\ to\ phrases\n\ @param\ phr\ is\ the\ new\ phrase\ to\ be\ added\ to\ the\ sentence\n\ Runs\ in\ O(1)\ time\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getPhrases()
+comment4.text=\n\ Returns\ a\ copy\ of\ phrases\n\ @return\ a\ deep\ copy\ of\ phrases\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Returns\ a\ string\ form\ of\ the\ phrase\n\ @return\ the\ phrase\ represented\ by\ a\ string\n
+numComments=6
